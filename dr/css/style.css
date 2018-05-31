@@ -1,7 +1,7 @@
 /*PROCESAR POR http://cssnext.io/playground/*/
 /*ICONOS*/
-@font-face { font-family: 'ahmfanfont'; src: url('https://www.diegorey.es/wp-content/themes/blankslate/fuentes/ahmfanfont-may.woff') format('woff'); font-weight: normal; font-style: normal;}
-@font-face { font-family: 'diego'; src: url('https://www.diegorey.es/wp-content/themes/blankslate/fuentes/Oswald-Medium-diego.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'ahmfanfont'; src: url('https://www.fantribes.com/fonts/ahmfanfont-may.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'diego'; src: url('https://www.fantribes.com/fonts/Oswald-Medium-diego.woff') format('woff'); font-weight: normal; font-style: normal;}
 [class^="icon-"]:before, [class*=" icon-"]:before {font-family: "ahmfanfont";font-style: normal;font-weight: normal;speak: none;display: inline-block;text-decoration: inherit;width: 1em;margin-right: .2em;text-align: center;-webkit-font-feature-settings: normal;font-feature-settings: normal;font-variant: normal;text-transform: none;margin-left: .2em;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 
 .icon-search-circled:before { content: '\e800'; } /* 'î €' */
@@ -145,23 +145,23 @@ input[type=submit]:hover,  .botonnegro:hover {background-color: #a75a62; color: 
     .cabseccion b,   .cabseccion strong {font-weight: 700;}
 
 /*WIDGETS*/
- /*REDES SOCIALES Y NEWSLETTERS*/
- #redesside p {font-size: 16px; font-weight: 400;}
- #redesside ul {margin-top: 15px}
- #redesside ul i {color:white; border-radius: 100px; width: 40px; height: 40px;font-size: 21px;line-height: 41px; text-align: center;}
- #redesside ul i:before {margin: 0;}
- #redesside ul .fa-twitter {background-color: #1da1f2}
- #redesside ul .fa-facebook-official {background-color: #365899; font-size: 19px;}
- #redesside ul .fa-instagram {background-color:  #e1306C;}
- #redesside ul li {margin-right: 5px;}
- #redesside ul li.newsletter {width: calc(100% - 160px)}
+    /*REDES SOCIALES Y NEWSLETTERS*/
+    #redesside p {font-size: 16px; font-weight: 400;}
+    #redesside ul {margin-top: 15px}
+    #redesside ul i {color:white; border-radius: 100px; width: 40px; height: 40px;font-size: 21px;line-height: 41px; text-align: center;}
+    #redesside ul i:before {margin: 0;}
+    #redesside ul .fa-twitter {background-color: #1da1f2}
+    #redesside ul .fa-facebook-official {background-color: #365899; font-size: 19px;}
+    #redesside ul .fa-instagram {background-color:  #e1306C;}
+    #redesside ul li {margin-right: 5px;}
+    #redesside ul li.newsletter {width: calc(100% - 160px)}
 
 
- /*POSTS DESTACADOS*/
- #postsdestacados article {width: 100%; overflow: hidden; margin-bottom: 15px;}
- #postsdestacados article img {width: 60px; float: left; border-radius: 5px;}
- #postsdestacados article .infopost span {text-transform: uppercase; font-size: 12px;display:block;margin-bottom:4px;}
- #postsdestacados article .infopost {float: right; width: calc(100% - 75px); }
+    /*POSTS DESTACADOS*/
+    #postsdestacados article {width: 100%; overflow: hidden; margin-bottom: 15px;}
+    #postsdestacados article img {width: 60px; float: left; border-radius: 5px;}
+    #postsdestacados article .infopost span {text-transform: uppercase; font-size: 12px;display:block;margin-bottom:4px;}
+    #postsdestacados article .infopost {float: right; width: calc(100% - 75px); }
 
 
 
@@ -1289,11 +1289,12 @@ footer #pie #copy ul#redes li {float:none; text-align:center;display:inline-bloc
     #mainheader ul#cabecera {height: 240px;}
     .diego #mainheader h1 {position: absolute;top:40px;left: 23px; }
 
-    #wrapper .ngg-gallery-thumbnail-box {width: calc((100% / 3) - 2px); margin-right:3px; margin-bottom: 3px;}
+    #wrapper .ngg-gallery-thumbnail-box {width: calc(33.33333% - 2px); margin-right:3px; margin-bottom: 3px;}
     #wrapper .ngg-gallery-thumbnail-box a {float:left; font-size: 0;}
     #wrapper .ngg-gallery-thumbnail-box:nth-child(3n) {margin-right: 0;}
     .Fotos .entry-content{padding: 0 !important;}
     .Fotos .entry-content p {padding-left:20px; padding-right: 20px;}
+
 
 
 
